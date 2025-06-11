@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Quicksand', Arial, sans-serif;
 }
 
+#bridge {
+  width: 100vw;
+  height: auto;
+  max-width: 100%;
+}
+
 .edge-screen-space {
   padding: 10px 20px;
 }
@@ -26,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-pink-fabric {
-  background-image: linear-gradient(rgba(204, 76, 144, 0.6), rgba(204, 76, 144, 0.6)), url('texture/fabric-texture1.avif');
+  background-image: linear-gradient(rgba(204, 76, 120, 0.6), rgba(204, 76, 120, 0.6)), url('texture/fabric-texture1.avif');
   border: 3px solid rgb(133, 29, 84);
 }
 
@@ -47,5 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 .bg-yellow-fabric {
   min-height: 400px;
   background-image: linear-gradient(rgba(255, 220, 79, 0.7), rgba(255, 220, 79, 0.7)), url('texture/fabric-texture1.avif');
+  border: 3px solid rgb(180, 150, 31);
 }
 
+.yellow-stitch {
+  border: 3px dashed rgb(180, 150, 31);
+}
