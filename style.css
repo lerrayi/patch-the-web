@@ -14,20 +14,38 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
 }
 
+.bg-green-fabric, .bg-pink-fabric, .bg-yellow-fabric {
+  background-size: cover;
+  padding: 20px;
+}
+
+.green-stitch, .pink-stitch, .yellow-stitch {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
 
 .bg-pink-fabric {
-  background-image: linear-gradient(rgba(204, 76, 144, 0.8), rgba(204, 76, 144, 0.8)), url('texture/fabric-texture1.avif');
-  background-size: cover;
+  background-image: linear-gradient(rgba(204, 76, 144, 0.6), rgba(204, 76, 144, 0.6)), url('texture/fabric-texture1.avif');
+  border: 3px solid rgb(133, 29, 84);
+}
+
+.pink-stitch {
+  border: 3px dashed rgb(133, 29, 84);
 }
 
 .bg-green-fabric {
-  background-image: linear-gradient(rgba(79, 183, 126, 0.8), rgba(79, 183, 126, 0.8)), url('texture/fabric-texture2.avif');
-  background-size: cover;
+  min-height: 400px;
+  background-image: linear-gradient(rgba(56, 150, 98, 0.5), rgba(56, 150, 98, 0.5)), url('texture/fabric-texture2.avif');
+  border: 3px solid rgb(25, 79, 49);
+}
+
+.green-stitch {
+  border: 3px dashed rgb(25, 79, 49);
 }
 
 .bg-yellow-fabric {
-  background-image: linear-gradient(rgba(255, 220, 79, 0.8), rgba(255, 220, 79, 0.8)), url('texture/fabric-texture1.avif');
-  background-size: cover;
+  min-height: 400px;
+  background-image: linear-gradient(rgba(255, 220, 79, 0.7), rgba(255, 220, 79, 0.7)), url('texture/fabric-texture1.avif');
 }
-
 
