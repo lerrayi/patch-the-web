@@ -5,16 +5,21 @@ body {
 body {
   font-family: 'Roboto', Arial, sans-serif;
 }
-  h1, h2, h3, h4, h5, h6 {
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Quicksand', Arial, sans-serif;
 }
 
 .edge-screen-space {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .bg-pink {
   background-color: #cc4c90;
+}
+
+.bg-green {
+  background-color: #4fb77e;
 }
 
 
