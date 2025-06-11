@@ -20,8 +20,14 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-.bg-green {
-  background-color: #4fb77e;
+.bg-green-fabric {
+  background-image: linear-gradient(rgba(79, 183, 126, 0.8), rgba(79, 183, 126, 0.8)), url('texture/fabric-texture2.avif');
+  background-size: cover;
+}
+
+.bg-yellow-fabric {
+  background-image: linear-gradient(rgba(255, 220, 79, 0.8), rgba(255, 220, 79, 0.8)), url('texture/fabric-texture1.avif');
+  background-size: cover;
 }
 
 
