@@ -74,8 +74,16 @@ strong {
   padding: 20px;
 }
 
+.hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect:hover, .hover-effect:focus {
+  transform: scale(1.03);
+}
+
 .bg-pink-fabric {
-  background-image: linear-gradient(rgba(245, 110, 160, 0.5), rgba(245, 110, 160, 0.5)), url('texture/fabric-texture2.avif');
+  background-image: linear-gradient(rgba(255, 125, 173, 0.5), rgba(255, 125, 173, 0.5)), url('texture/fabric-texture2.avif');
   border: 3px solid rgb(133, 29, 84);
 }
 
@@ -110,3 +118,8 @@ strong {
   border: 3px dashed rgb(56, 35, 146);
 }
 
+@media (max-width: 992px) {
+  .hover-effect:hover, .hover-effect:focus {
+    transform: none;
+  }
+}
