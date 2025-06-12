@@ -40,14 +40,13 @@ strong {
   height: 100%;
   width: 100%;
   border: 2px dashed rgb(6, 18, 42);
-  color: rgb(251, 246, 234);
+  color: #fff;
+  font-size: 0.9em;
   padding: 10px;
 }
 
 .cta-btn:hover, .cta-btn:focus {
   background-color: rgb(118, 144, 200);
-  color: rgb(251, 246, 234);
-  border: 2px solid rgb(6, 18, 42);
 }
 
 #bridge {
@@ -94,7 +93,7 @@ strong {
 }
 
 .bg-yellow-fabric {
-  background-image: linear-gradient(rgba(255, 245, 120, 0.6), rgba(255, 245, 120, 0.6)), url('texture/fabric-texture1.avif');
+  background-image: linear-gradient(rgba(255, 245, 120, 0.6), rgba(255, 245, 120, 0.6)), url('texture/fabric-texture2.avif');
   border: 3px solid rgb(150, 125, 25);
 }
 
