@@ -1,5 +1,6 @@
 body {
-  background-color: #f8f9fa;
+  background-color: rgb(250, 243, 224);
+  color: rgb(51, 51, 51);
 }
 
 body {
@@ -8,6 +9,21 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.cta-btn {
+  background-color: rgb(50, 70, 110);
+  font-size: 1.4em;
+  padding: 10px;
+  border: 2px solid rgb(6, 18, 42);
+}
+
+.cta-btn-stitch {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed rgb(6, 18, 42);
+  color: rgb(250, 243, 224);
 }
 
 #bridge {
@@ -20,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
 }
 
-.bg-green-fabric, .bg-pink-fabric, .bg-yellow-fabric, .bg-blue-fabric {
+.fabric-square {
   background-size: cover;
   padding: 20px;
 }
@@ -32,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-pink-fabric {
-  background-image: linear-gradient(rgba(204, 76, 120, 0.6), rgba(204, 76, 120, 0.6)), url('texture/fabric-texture1.avif');
+  background-image: linear-gradient(rgba(217, 122, 122, 0.6), rgba(217, 122, 122, 0.6)), url('texture/fabric-texture2.avif');
   border: 3px solid rgb(133, 29, 84);
 }
 
@@ -41,8 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-green-fabric {
-  min-height: 400px;
-  background-image: linear-gradient(rgba(56, 150, 98, 0.5), rgba(56, 150, 98, 0.5)), url('texture/fabric-texture2.avif');
+  background-image: linear-gradient(rgba(148, 174, 105, 0.5), rgba(148, 174, 105, 0.5)), url('texture/fabric-texture1.avif');
   border: 3px solid rgb(25, 79, 49);
 }
 
@@ -51,7 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-yellow-fabric {
-  min-height: 400px;
   background-image: linear-gradient(rgba(255, 220, 79, 0.7), rgba(255, 220, 79, 0.7)), url('texture/fabric-texture1.avif');
   border: 3px solid rgb(150, 125, 25);
 }
@@ -61,11 +75,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-blue-fabric {
-  min-height: 400px;
-  background-image: linear-gradient(rgba(87, 60, 207, 0.5), rgba(87, 60, 207, 0.5)), url('texture/fabric-texture2.avif');
+  background-image: linear-gradient(rgba(90, 113, 160, 0.5), rgba(90, 113, 160, 0.5)), url('texture/fabric-texture1.avif');
   border: 3px solid rgb(56, 35, 146);
 }
 
 .blue-stitch {
   border: 3px dashed rgb(56, 35, 146);
 }
+
