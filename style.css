@@ -102,7 +102,7 @@ strong {
 }
 
 .bg-pink-fabric {
-  background-image: linear-gradient(rgba(255, 125, 173, 0.5), rgba(255, 125, 173, 0.5)), url('texture/fabric-texture2.avif');
+  background-image: linear-gradient(rgba(255, 125, 173, 0.5), rgba(255, 125, 173, 0.5)), url('texture/fabric-texture2.webp');
   border: 3px solid rgb(133, 29, 84);
 }
 
@@ -111,7 +111,7 @@ strong {
 }
 
 .bg-green-fabric {
-  background-image: linear-gradient(rgba(180, 230, 120, 0.5), rgba(180, 230, 120, 0.5)), url('texture/fabric-texture1.avif');
+  background-image: linear-gradient(rgba(180, 230, 120, 0.5), rgba(180, 230, 120, 0.5)), url('texture/fabric-texture1.webp');
   border: 3px solid rgb(25, 79, 49);
 }
 
@@ -120,7 +120,7 @@ strong {
 }
 
 .bg-yellow-fabric {
-  background-image: linear-gradient(rgba(255, 245, 120, 0.6), rgba(255, 245, 120, 0.6)), url('texture/fabric-texture2.avif');
+  background-image: linear-gradient(rgba(255, 245, 120, 0.6), rgba(255, 245, 120, 0.6)), url('texture/fabric-texture2.webp');
   border: 3px solid rgb(150, 125, 25);
 }
 
@@ -129,7 +129,7 @@ strong {
 }
 
 .bg-blue-fabric {
-  background-image: linear-gradient(rgba(130, 180, 255, 0.5), rgba(130, 180, 255, 0.5)), url('texture/fabric-texture1.avif');
+  background-image: linear-gradient(rgba(130, 180, 255, 0.5), rgba(130, 180, 255, 0.5)), url('texture/fabric-texture1.webp');
   border: 3px solid rgb(56, 35, 146);
 }
 
