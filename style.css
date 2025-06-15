@@ -34,6 +34,7 @@ strong {
   background-color: rgb(80, 109, 165);
   padding: 10px;
   border: 2px solid rgb(6, 18, 42);
+  text-decoration: none;
 }
 
 .cta-btn-stitch {
