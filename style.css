@@ -17,6 +17,14 @@ strong {
   font-size: 1.2em;
 }
 
+.black-link {
+  color: rgb(18, 25, 166);
+}
+
+.black-link:hover, .black-link:focus {
+  color: rgb(54, 63, 236);
+}
+
 .larger-h2 {
   font-size: 2em;
   font-weight: 600;
