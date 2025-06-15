@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(251, 246, 234, 0.9), rgba(251, 246, 234, 0.9)), url('texture/plaid.jpg');
+  background-image: linear-gradient(rgba(251, 246, 234, 0.9), rgba(251, 246, 234, 0.9)), url('texture/plaid.webp');
   color: rgb(51, 51, 51);
   background-size: cover;
 }
