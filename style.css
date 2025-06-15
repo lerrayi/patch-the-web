@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(251, 246, 234, 0.8), rgba(251, 246, 234, 0.8)), url('texture/plaid.jpg');
+  background-image: linear-gradient(rgba(251, 246, 234, 0.9), rgba(251, 246, 234, 0.9)), url('texture/plaid.jpg');
   color: rgb(51, 51, 51);
   background-size: cover;
 }
@@ -140,5 +140,19 @@ strong {
 @media (max-width: 992px) {
   .hover-effect:hover, .hover-effect:focus {
     transform: none;
+  }
+
+  .active-page-indicator {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .active-page-mobile {
+    background-color: rgb(48, 61, 86);
+    border-radius: 5px;
   }
 }
