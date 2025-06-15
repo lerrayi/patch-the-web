@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(251, 246, 234, 0.9), rgba(251, 246, 234, 0.9)), url('texture/plaid.webp');
+  background-image: linear-gradient(rgba(255, 254, 250, 0.9), rgba(255, 254, 250, 0.9)), url('texture/plaid.webp');
   color: rgb(51, 51, 51);
   background-size: cover;
 }
@@ -11,6 +11,10 @@ body {
 
 h1, h2, h3, h4, h5, h6, .cta-text {
   font-family: 'Quicksand', Arial, sans-serif;
+}
+
+h1{
+  font-size: 2.6em;
 }
 
 strong {
@@ -80,10 +84,6 @@ strong {
   width: 100vw;
   height: auto;
   max-width: 100%;
-}
-
-.blue-glow {
-  text-shadow: 0 0 4px rgb(102, 153, 225);
 }
 
 .fabric, .fabric-square {
