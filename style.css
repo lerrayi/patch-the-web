@@ -1,7 +1,7 @@
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/button-bg2.webp');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/bg-button.webp');
   color: rgb(51, 51, 51);
-  background-attachment: fixed;
+  background-repeat: repeat;
 }
 
 body {
@@ -150,6 +150,14 @@ strong {
 }
 
 @media (max-width: 992px) {
+  h1{
+    font-size: 2.2em;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('img/bg-button.webp');
+  }
+
   .hover-effect:hover, .hover-effect:focus {
     transform: none;
   }
