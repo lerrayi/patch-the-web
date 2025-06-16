@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, .cta-text {
 }
 
 h1{
-  font-size: 2.6em;
+  font-size: 2.4em;
 }
 
 strong {
@@ -88,6 +88,14 @@ strong {
   width: 100vw;
   height: auto;
   max-width: 100%;
+}
+
+.blue-glow {
+  text-shadow: 0 0 2px rgb(94, 136, 220);
+}
+
+.pink-glow {
+  text-shadow: 0 0 2px rgb(215, 102, 144);
 }
 
 .fabric, .fabric-square {
