@@ -107,10 +107,30 @@ strong {
   min-height: 400px;
 }
 
-.green-stitch, .pink-stitch, .yellow-stitch, .blue-stitch {
+.small-fabric-square {
+  min-height: 200px;
+  padding: 10px;
+  background-size: cover;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.green-stitch, .pink-stitch, .yellow-stitch, .blue-stitch,
+.small-green-stitch, .small-pink-stitch, .small-yellow-stitch, .small-blue-stitch {
   height: 100%;
   width: 100%;
+}
+
+.green-stitch, .pink-stitch, .yellow-stitch, .blue-stitch {
   padding: 20px;
+}
+
+.small-green-stitch, .small-pink-stitch, .small-yellow-stitch, .small-blue-stitch {
+  padding: 10px;
 }
 
 .hover-effect {
@@ -126,7 +146,7 @@ strong {
   border: 3px solid rgb(133, 29, 84);
 }
 
-.pink-stitch {
+.pink-stitch, .small-pink-stitch {
   border: 3px dashed rgb(133, 29, 84);
 }
 
@@ -135,7 +155,7 @@ strong {
   border: 3px solid rgb(25, 79, 49);
 }
 
-.green-stitch {
+.green-stitch, .small-green-stitch {
   border: 3px dashed rgb(25, 79, 49);
 }
 
@@ -144,7 +164,7 @@ strong {
   border: 3px solid rgb(150, 125, 25);
 }
 
-.yellow-stitch {
+.yellow-stitch, .small-yellow-stitch {
   border: 3px dashed rgb(150, 125, 25);
 }
 
@@ -153,7 +173,7 @@ strong {
   border: 3px solid rgb(56, 35, 146);
 }
 
-.blue-stitch {
+.blue-stitch, .small-blue-stitch {
   border: 3px dashed rgb(56, 35, 146);
 }
 
