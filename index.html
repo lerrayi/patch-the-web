@@ -40,25 +40,25 @@
     
     <section>
         <div class="container">
-            <div class="row d-flex justify-content-center">
+            <div class="d-flex justify-content-center">
                 <div class="bg-pink-fabric fabric rounded container mt-5 d-flex flex-column col-lg-9 col-md-12 col-sm-12">
                     <div class="pink-stitch rounded">
                         <div class="row">
-                            <h1 class="col-lg-6 col-md-6 col-sm-12">The web should be colorful, like a quilt.</h1>
-                            <img src="#" class="col-lg-6 col-md-6 col-sm-12" alt="Colorful quilt" >
-                        </div>
-                        <div class="row">
-                            <p class="col-lg-8 col-md-6 col-sm-12">Everyone deserves a patch.</p>
-                        </div>
-                        <div class="row">
-                            <a href="./services" class="cta-btn rounded col-lg-6 col-md-6 col-sm-12">
-                                <div class="cta-btn-stitch rounded d-flex flex-column justify-content-center">
-                                    <p class="text-center m-0">
-                                        Help me build a website
-                                        <i class="bi bi-search-heart" aria-hidden="true"></i>
-                                    </p>
-                                </div>
-                            </a>
+                            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+                                <h1>The web should be colorful, like a quilt.</h1>
+                                <p id="cta-text">Everyone deserves a patch.</p>
+                                <a href="./services" class="cta-btn rounded  d-flex flex-column justify-content-center">
+                                    <div class="cta-btn-stitch rounded col-12">
+                                        <p class="text-center m-0">
+                                            Help me build a website
+                                            <i class="bi bi-search-heart" aria-hidden="true"></i>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img src="img/patchwork_bear.webp" id="cta-img"class="col-lg-6 col-md-6 col-sm-12" alt="A colorful, multi-patterned patchwork bear is sewing a similarly colorful quilt. There are pink, green, blue, yellow, and orange tiles." >
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,9 @@
             </div>
         </div>
     </section>
-    <footer class="bg-dark-blue text-white text-center py-3">All rights reserved. Powered by Github Pages.</footer>
+    <footer class="bg-dark-blue text-white text-center py-3">
+        All rights reserved. Powered by Github Pages. Art by <a href="https://sketchyallicat.carrd.co/" target="_blank" rel="noopener noreferrer">Alyssa Curtis-Cruz</a>.
+    </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/8df0fd2a4b.js" crossorigin="anonymous"></script>
 </body>

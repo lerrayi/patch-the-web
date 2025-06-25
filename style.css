@@ -84,6 +84,16 @@ strong {
   background-color: rgb(118, 144, 200);
 }
 
+#cta-text {
+  font-size: 1.5em;
+}
+
+#cta-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
 #bridge {
   width: 100vw;
   height: auto;
